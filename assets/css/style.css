@@ -130,6 +130,28 @@ h3 .nothing{
     font-size: 20px;
     color:#000;
 }
+.payday-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.payday-img{
+    height: 500px;
+    padding-top: 20px;
+}
+.text-bold{
+    font-weight: 700;
+}
+.w-900{
+    font-weight: 900;
+}
+.lh-1{
+    line-height: 12px;
+}
+.btn{
+    border: transparent;
+    outline: none;
+}
 .fade-in {
     opacity: 0;
     transition: all 1s ease-in-out;
