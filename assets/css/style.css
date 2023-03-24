@@ -20,6 +20,15 @@ h1 span {
     padding-right: 25px;
     padding-left: 5px;
 }
+button{
+    outline: none;
+    background: #000;
+    border-radius: 5px;
+}
+input{
+    border: none;
+    background: #fff;
+}
 .nav-bar{
     padding: 0 20px;
     display: flex;
@@ -79,6 +88,17 @@ h1 span {
     justify-content: flex-start;
     align-items: center;
 }
+.f-9{
+    font-size: 9px;
+}
+.f-12{
+    font-size: 12px;
+}
+.download-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .new-arrival-img{
     height: 60vh;
     width: 100%;
@@ -96,10 +116,14 @@ h1 span {
 .bg-waning{
     background: #ebbf10;
 }
-.flex-btn{
+.flex-btn, .flexx{
     display : flex;
-    justify-content: space-around;
+    justify-content: left;
     align-items: center;
+}
+.email-section{
+    text-align: center;
+    margin-top: 50px;
 }
 .nothing{
     margin-right: 20px;
