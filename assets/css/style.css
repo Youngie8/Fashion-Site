@@ -1,8 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 html, body{
     width: 100%;
     height: 100%;
     margin: 0;
+}
+*{
+    font-family: 'Righteous', cursive;
 }
 a{
     text-decoration: none;
@@ -30,7 +33,8 @@ input{
     background: #fff;
 }
 .blur.active{
-    filter: blur(4px)
+    filter: blur(4px);
+    transition: 800ms;
 }
 .nav-bar{
     padding: 0 20px;
@@ -188,7 +192,7 @@ input{
     position: fixed;
     top: 0;
     left: 0;
-    filter: opacity(0.9);
+    filter: opacity(0);
     width: 100%;
     height: 100%;
     padding: 20px;
@@ -197,6 +201,7 @@ input{
     transition: 800ms;
 }
 .side-bar-active{
+    filter: opacity(0.9);
     transform: translate(0%)
 }
 .side-bar li{
